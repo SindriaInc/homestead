@@ -14,6 +14,7 @@ Official documentation [is located here](https://laravel.com/docs/homestead).
 ## Supported
 
 - Laravel
+- Symfony
 - Magento 1.x
 - Magento 2.x
 - WordPress
