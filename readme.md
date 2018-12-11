@@ -27,5 +27,13 @@ Official documentation [is located here](https://laravel.com/docs/homestead).
 
 ## Usage
 
-`composer require sindria/homestead`
+`composer require sindria/homestead --dev`
+
+Mac / Linux:
+
+`php vendor/bin/homestead make`
+
+Windows:
+
+`vendor\\bin\\homestead make`
 
