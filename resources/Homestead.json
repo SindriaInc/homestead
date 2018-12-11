@@ -1,0 +1,25 @@
+{
+    "ip": "10.249.197.10",
+    "memory": 2048,
+    "cpus": 1,
+    "provider": "virtualbox",
+    "authorize": "~/.ssh/vagrant@homestead.pub",
+    "keys": [
+        "~/.ssh/vagrant@homestead"
+    ],
+    "folders": [
+        {
+            "map": "~/projects/<appname>",
+            "to": "/var/www/<appname>"
+        }
+    ],
+    "sites": [
+        {
+            "map": "<appname>",
+            "to": "/var/www/<appname>/public"
+        }
+    ],
+    "databases": [
+        "homestead"
+    ]
+}
