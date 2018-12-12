@@ -26,7 +26,7 @@ Official documentation [is located here](https://laravel.com/docs/homestead).
 - Zend Framework 
 
 
-## Usage
+## Installation
 
 `composer require sindria/homestead --dev`
 
