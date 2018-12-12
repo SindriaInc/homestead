@@ -54,6 +54,15 @@ Usage: `type: <platform>`
 - WordPress = `type: wordpress`
 
 
+#### Append options:
+
+- Enable mariadb `mariadb: true`
+
+- Enable sindria for custom provision `sindria: true`
+
+- Enable WSL compatibility `wsl: true`
+
+
 ### Example
 
 ```
@@ -82,6 +91,7 @@ name: <appname>
 hostname: <appname>
 mariadb: true
 sindria: true
+wsl: false
 
 ```
 
