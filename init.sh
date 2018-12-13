@@ -18,8 +18,8 @@ cp -i resources/aliases aliases
 
 mkdir -p $HOME/.ssh
 sudo chmod 700 $HOME/.ssh
-sudo chmod 600 $HOME/.ssh/vagrant@homestead
-sudo chmod +r $HOME/.ssh/*.pub
+sudo chmod 600 $HOME/.ssh/$KEY
+sudo chmod +r $HOME/.ssh/$KEY.pub
 sudo chown -R ${whoami}:${whoami} $KEY_PATH
 
 if [ -e "$FILE" ]; then
