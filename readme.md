@@ -43,7 +43,7 @@ Windows:
 
 Usage: `type: <platform>` 
 
-- Laravel = [default]
+- Laravel = [default no key needed]
 
 - Symfony = `type: symfony`
 
