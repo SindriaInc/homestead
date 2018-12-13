@@ -19,7 +19,7 @@ else
   echo "Setup key..."
   echo #
   ssh-keygen -t rsa -N "" -f $KEY
-  sudo mv $KEY $KEY_PATH
+  sudo mv vagrant@* $KEY_PATH
   sudo chmod 600 $KEY_PATH/$KEY
   sudo chmod +r $KEY_PATH/$KEY.pub
   sudo chown -R ${whoami}:${whoami} $KEY_PATH
