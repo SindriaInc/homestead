@@ -79,6 +79,6 @@ ln -fs "/etc/nginx/sites-available/$1" "/etc/nginx/sites-enabled/$1"
 mkdir /var/log/nginx/$1/
 touch /var/log/nginx/$1/access.log
 touch /var/log/nginx/$1/error.log
-#sudo apt-get install php7.1-mcrypt -y
+apt install php7.1-mcrypt -y
 
 

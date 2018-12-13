@@ -26,12 +26,9 @@ ln -fs "/etc/nginx/sites-available/$1" "/etc/nginx/sites-enabled/$1"
 mkdir /var/log/nginx/$1/
 touch /var/log/nginx/$1/access.log
 touch /var/log/nginx/$1/error.log
-
+sed -i -e "s/@@APPNAME@@/$1/g" /etc/nginx/sites-available/$1
 apt install php7.1-mcrypt php7.1-zip php7.1-intl -y
-
 systemctl restart php7.1-fpm
 systemctl restart nginx
-
-
-
-
+mv /bin/php /bin/php.old
+ln -s /usr/bin/php7.1 /bin/php

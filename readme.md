@@ -15,6 +15,8 @@ Official documentation [is located here](https://laravel.com/docs/homestead).
 
 - Laravel
 - Symfony
+- Zend Framework
+- Yii
 - Magento 1.x
 - Magento 2.x
 - WordPress
@@ -22,9 +24,7 @@ Official documentation [is located here](https://laravel.com/docs/homestead).
 ## Coming
 
 - Joomla
-- Drupal
-- Zend Framework 
-
+- Drupal 
 
 ## Installation
 
@@ -46,6 +46,10 @@ Usage: `type: <platform>`
 - Laravel = [default]
 
 - Symfony = `type: symfony`
+
+- Zend Framework = `type: zend`
+
+- Yii = `type: yii`
 
 - Magento 1.x = `type: magento1`
 
